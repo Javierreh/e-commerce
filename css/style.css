@@ -1,1 +1,57 @@
 @import url(reset.css);
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: gray;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+header {
+	padding-top: 40px;
+}
+
+.row {
+	margin: auto;
+	width: 980px;
+	height: auto;
+	clear: both;
+	display: table;
+}
+
+header .row {
+	height: 72px;
+}
+
+.logo, nav {
+	float: left;
+}
+
+.logo img {
+	border-right: 1px lightgray solid;
+}
+
+nav li {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+nav li a {
+	padding: 0 20px 39px;
+}
+
+nav li a:hover {
+	border-bottom: 3px red solid;
+}
+
+.cart a {
+	float:right;
+	font-size: 1.2em;
+	border: 2px gray solid;
+	padding: 8px 17px;
+	border-radius: 25px;
+}
