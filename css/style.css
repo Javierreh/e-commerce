@@ -93,7 +93,7 @@ h2 {
 
 .title hr {
 	display: inline-block;
-	position:relative;
+	position: relative;
 	top: 4px;
 }
 
@@ -116,6 +116,7 @@ h2 {
 	margin-right: 20px;
 	padding-left: 6px;
 	padding-right: 6px;
+	position: relative;
 }
 
 .products .product-box:nth-last-child(1) {
@@ -133,3 +134,27 @@ h3 {
 	color: #555;
 }
 
+.brands {
+	margin-bottom: 50px;
+}
+
+.brands img {
+	float: left;
+	border: 4px #eee solid;
+	margin-right: 55px;
+}
+
+.brands img:last-child{
+	margin-right: 0px;
+}
+
+.discount {
+	position: absolute;
+	top: 15px;
+	left: -4px;
+	background-color: #f44d55;
+	border-left: 4px solid #fe0000;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+}
