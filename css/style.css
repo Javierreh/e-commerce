@@ -25,7 +25,7 @@ header {
 }
 
 header .row {
-	height: 72px;
+	height: 71px;
 }
 
 .logo, nav {
@@ -43,7 +43,7 @@ nav li {
 }
 
 nav li a {
-	padding: 0 20px 39px;
+	padding: 0 20px 36px;
 }
 
 nav li a:hover {
@@ -62,7 +62,7 @@ nav li a:hover {
 /* home image */
 
 .home_image {
-	height: 435px;
+	height: 430px;
 	overflow: hidden;
 }
 
@@ -72,3 +72,64 @@ nav li a:hover {
 
 
 /* main section */
+
+main {
+	margin-top: 28px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+hr {
+	width: 200px;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.title hr {
+	display: inline-block;
+	position:relative;
+	top: 4px;
+}
+
+.title h2 {
+	display: inline-block;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.products {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.product-box {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 4px #eee solid;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.products .product-box:nth-last-child(1) {
+	margin-right: 0px;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+.product-box p {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 14px;
+	color: #555;
+}
+
