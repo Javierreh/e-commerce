@@ -10,6 +10,8 @@ a {
 	text-decoration: none;
 }
 
+/* header section */
+
 header {
 	padding-top: 40px;
 }
@@ -55,3 +57,18 @@ nav li a:hover {
 	padding: 8px 17px;
 	border-radius: 25px;
 }
+
+
+/* home image */
+
+.home_image {
+	height: 435px;
+	overflow: hidden;
+}
+
+.home_image img {
+	width: 100%;
+}
+
+
+/* main section */
