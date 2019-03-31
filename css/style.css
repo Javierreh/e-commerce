@@ -3,6 +3,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	color: gray;
+	box-sizing: border-box;
 }
 
 a {
@@ -105,22 +106,22 @@ h2 {
 }
 
 .products {
-	text-align: center;
+	/*text-align: center;*/
 	margin-bottom: 50px;
 }
 
 .product-box {
+	text-align: center;
 	display: inline-block;
-	box-sizing: border-box;
 	border: 4px #eee solid;
 	margin-top: 20px;
-	margin-right: 20px;
+	margin-right: 24px;
 	padding-left: 6px;
 	padding-right: 6px;
 	position: relative;
 }
 
-.products .product-box:nth-last-child(1) {
+.products .product-box:last-child {
 	margin-right: 0px;
 }
 
@@ -142,7 +143,7 @@ h3 {
 .brands img {
 	float: left;
 	border: 4px #eee solid;
-	margin-right: 55px;
+	margin-right: 54.5px;
 }
 
 .brands img:last-child {
@@ -287,7 +288,7 @@ footer .row a:hover {
 	background-position: -144px -28px
 }
 
-/* Info footer */
+/* Copyright footer */
 
 .copyright {
 	margin: auto;
