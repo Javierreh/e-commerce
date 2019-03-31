@@ -65,11 +65,8 @@ nav li a:hover {
 
 .home_image {
 	height: 430px;
-	overflow: hidden;
-}
-
-.home_image img {
-	width: 100%;
+	background-image: url('../images/chica.jpg');
+	background-size: cover;
 }
 
 
