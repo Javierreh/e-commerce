@@ -6,7 +6,7 @@ body {
 }
 
 a {
-	color: gray;
+	color: #646263;
 	text-decoration: none;
 }
 
@@ -145,7 +145,7 @@ h3 {
 	margin-right: 55px;
 }
 
-.brands img:last-child{
+.brands img:last-child {
 	margin-right: 0px;
 }
 
@@ -158,4 +158,149 @@ h3 {
 	color: white;
 	font-weight: bold;
 	padding: 10px 20px;
+}
+
+
+/* Footer */
+
+footer {
+	background-color: #EBEBEB;
+	height: 470px;
+}
+
+footer .row {
+	padding-top: 50px;
+	padding-bottom: 52px;
+}
+
+.f_column {
+	float: left;
+	width: 25%;
+}
+
+footer h3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+footer ul {
+	margin-bottom: 14px;
+}
+
+footer li {
+	padding: 6px 0;
+}
+
+.phone {
+	font-weight: bold;
+}
+
+.middle-column {
+	float: left;
+	width: 50%;
+}
+
+footer h4 {
+	font-size: 1.05em;
+	font-weight: bold;
+	padding: 6px 0;
+}
+
+footer h4 a, footer p, footer li {
+	color: #646263;
+}
+
+footer p {
+	margin-bottom: 14px;
+}
+
+footer .row a:hover {
+	color: red;
+}
+
+.social li {
+	display: inline-block;
+	padding: 0px;
+}
+
+#facebook a {
+	background-image: url("../images/sprite.jpg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 28px;
+	height: 28px;
+}
+
+#twitter a {
+	background-image: url("../images/sprite.jpg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 28px;
+	height: 28px;
+	background-position: -33px 0px
+}
+
+#googleplus a {
+	background-image: url("../images/sprite.jpg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 44px;
+	height: 28px;
+	background-position: -65px 0px
+}
+
+#vimeo a {
+	background-image: url("../images/sprite.jpg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 31px;
+	height: 28px;
+	background-position: -111px 0px
+}
+
+#rss a {
+	background-image: url("../images/sprite.jpg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 28px;
+	height: 28px;
+	background-position: -144px 0px
+}
+
+#facebook a:hover {
+	background-position: 0px -28px
+}
+
+#twitter a:hover {
+	background-position: -33px -28px
+}
+
+#googleplus a:hover {
+	background-position: -65px -28px
+}
+
+#vimeo a:hover {
+	background-position: -111px -28px
+}
+
+#rss a:hover {
+	background-position: -144px -28px
+}
+
+/* Info footer */
+
+.copyright {
+	margin: auto;
+	width: 980px;
+}
+
+.copyright hr {
+	margin: 0 auto;
+	border: none;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+.copyright p {
+	margin: 20px 0;
 }
